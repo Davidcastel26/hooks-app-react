@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimpleForm from './components/useEffect/SimpleForm';
+//useEffect
+import FormWithCustomHook from './components/useEffect/FromWithCustomHook';
+// import SimpleForm from './components/useEffect/SimpleForm';
 //useState
 // import CounterApp from './components/useState/CounterApp';
 // import CounterWithCustomHook from './components/useState/CounterWithCustomHook';
@@ -12,7 +14,8 @@ ReactDOM.render(
     // <HookApp />,
     // <CounterApp />,
     // <CounterWithCustomHook/>,
-    <SimpleForm />,
+    // <SimpleForm />,
+    <FormWithCustomHook />,
   document.getElementById('root')
 );
 
