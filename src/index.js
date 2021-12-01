@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HookApp from './HookApp';
+import CounterApp from './components/useState/CounterApp';
+// import HookApp from './HookApp';
 
 
 ReactDOM.render(
   
-    <HookApp />,
+    // <HookApp />,
+    <CounterApp />,
   document.getElementById('root')
 );
 
